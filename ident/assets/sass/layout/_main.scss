@@ -52,6 +52,9 @@
 				z-index: -1;
 				background: _palette(border);
 			}
+			p:first-child {
+				margin: 0;
+			}
 		}
 
 		@include breakpoint(xsmall) {
