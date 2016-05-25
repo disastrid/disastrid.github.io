@@ -748,6 +748,9 @@
 				z-index: -1;
 				background: #c8cccf;
 			}
+			#main .avatar p:first-child {
+				margin: 0;
+			}
 
 		@media screen and (max-width: 480px) {
 
