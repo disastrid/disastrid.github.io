@@ -724,9 +724,10 @@
 		transition: opacity 1s ease, transform 1s ease;
 	}
 
-	#main p:first-child {
-			margin: 0;
-		}
+	p:first-child {
+		margin: 0;
+	}
+
 
 		#main .avatar {
 			position: relative;
