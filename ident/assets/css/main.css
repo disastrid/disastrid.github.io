@@ -724,6 +724,10 @@
 		transition: opacity 1s ease, transform 1s ease;
 	}
 
+	#main p:first-child {
+			margin: 0;
+		}
+
 		#main .avatar {
 			position: relative;
 			display: block;
@@ -748,9 +752,7 @@
 				z-index: -1;
 				background: #c8cccf;
 			}
-			#main .avatar p:first-child {
-				margin: 0;
-			}
+			
 
 		@media screen and (max-width: 480px) {
 
